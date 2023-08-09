@@ -13,7 +13,7 @@ $(document).ready(function() {
       type: "GET",
       dataType: "html",
       success: function(data) {
-        $("#content").html(data);
+        $(".content").html(data);
       },
       error: function(error) {
         console.error("Error fetching menu content:", error);
