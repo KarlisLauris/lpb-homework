@@ -26,7 +26,7 @@ router.get("/menu1", (req, res) => {
 router.get("/menu2", (req, res) => {
   const data = {
     title: "Menu 2",
-    items: ["Item A", "Item B", "Item C"],
+    items: ["Item A", "Item B", "Item C", "Item D"],
   };
 
   if (req.xhr) {
